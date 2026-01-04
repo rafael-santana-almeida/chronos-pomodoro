@@ -1,12 +1,13 @@
-import { Heading } from './components/Heading';
-
+import { Container } from './components/Container';
 import './styles/global.css';
 import './styles/theme.css';
 
 export function App() {
   return (
-    <div>
-      <Heading>Olá</Heading>
-    </div>
+    <>
+      <Container>
+        <section>LOGO</section>
+      </Container>
+    </>
   );
 }
